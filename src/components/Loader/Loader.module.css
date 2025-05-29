@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  min-height: 24rem;
+}
+
+.loaderText {
+  font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+  .loaderText {
+    font-size: 14px;
+  }
+}

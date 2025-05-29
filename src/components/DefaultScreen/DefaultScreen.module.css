@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  min-height: 24rem;
+  text-align: center;
+}
+
+.img {
+  opacity: 0.9;
+  width: 8rem;
+}
+
+.subText {
+  max-width: 24rem;
+  color: rgb(255 255 255 / 0.9);
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .img {
+    width: 7rem;
+  }
+}

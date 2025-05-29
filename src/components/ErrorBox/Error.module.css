@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 24rem;
+}
+
+.heading {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.errorMsg {
+  font-size: 1.15rem;
+  color: #ef4444;
+}
+
+@media (max-width: 640px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .errorMsg {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.heading {
+  font-weight: 600;
+  color: white;
+}
+
+.currentDayHeading {
+  font-size: 24px;
+}
+
+.fiveDayForecastHeading {
+  font-size: 20px;
+}
+
+.img {
+  width: 4rem;
+}
+
+.subText {
+  color: #d1d5db;
+}
+
+@media (max-width: 640px) {
+  .currentDayHeading {
+    font-size: 20px;
+  }
+
+  .fiveDayForecastHeading {
+    font-size: 18px;
+  }
+}
