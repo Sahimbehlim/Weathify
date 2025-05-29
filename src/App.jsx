@@ -24,7 +24,7 @@ const App = () => {
       <div className={styles.subContainer}>
         <div className={styles.headerBox}>
           <img src="/logo.png" className={styles.logo} alt="logo" />
-          <a href="#" target="_blank">
+          <a href="https://github.com/Sahimbehlim/Weathify" target="_blank">
             <FaGithub size={28} color="#FFF" />
           </a>
         </div>
